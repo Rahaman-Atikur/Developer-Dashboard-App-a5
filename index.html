@@ -1,52 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Dev Dashboard</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@5"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-  </head>
 
-  <body class="bg-gray-800">
-    <header>
-      <nav>
-        <!-- Navbar -->
-        <div class="navbar bg-[#FFFFFF] shadow-sm">
-          <!-- Left Side -->
-            <img src="assets/logo.png" alt="">
-          <div class="flex-1">
-            <p class="text-2xl px-2">Dev<span class="font-extrabold ">Board</span></p>
-          </div>
-          <!-- right side -->
-          <div class="flex w-123px h-60px bg-[#e3e4ed] rounded-xl">
-            <img src="assets/checkbox.png" alt="">
-          <button class="px-3">23</button>
-          </div>
-          
-          <button class="px-2"><img src="assets/theme-btn.png" alt=""></button>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dev Dashboard</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+
+<body class="bg-gray-800">
+  <header>
+    <nav>
+      <!-- Navbar -->
+      <div class="navbar bg-[#FFFFFF] shadow-sm">
+        <!-- Left Side -->
+        <img src="assets/logo.png" alt="" />
+        <div class="flex-1">
+          <p class="text-2xl px-2">
+            Dev<span class="font-extrabold">Board</span>
+          </p>
         </div>
-      </nav>
-    </header>
-    <main>
-      <!-- Left Part -->
-       <div class="w-1146px h-918px bg-[#FFFFFF]">
-        <!-- Upper part  -->
-         <div>
-          
-         </div>
-         <!-- Six card part -->
-          <div></div>
-       </div>
-       <!-- Right part -->
-        <div></div>
-    </main>
-    <footer></footer>
+        <!-- right side -->
+        <div class="flex w-123px h-60px bg-[#e3e4ed] rounded-xl">
+          <img src="assets/checkbox.png" alt="" />
+          <button class="px-3">23</button>
+        </div>
 
-    <script src="Script/script.js"></script>
-  </body>
+        <button class="px-2">
+          <img src="assets/theme-btn.png" alt="" />
+        </button>
+      </div>
+    </nav>
+  </header>
+  <main>
+    <!-- Left Part -->
+
+
+
+    <!-- Six card part -->
+    <div class="card card-border w-xs  bg-[#F4F7FF]">
+      <div class="card-body">
+        <div">
+          <h4>Space Shop</h4>
+        </div>
+        <h2 class="card-title">Card Title</h2>
+        <p class="bg-[#FFFFFF]">A card component has a figure, a body part, and inside body there are title and actions parts</p>
+        <div class="flex gap-30">
+          <div>
+            <p>Deadline</p>
+            <p>21 March 2025</p>
+          </div>
+          <div class="card-actions justify-end ">
+            <button class="btn btn-primary">Buy Now</button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Right part -->
+    <div></div>
+  </main>
+  <footer></footer>
+
+  <script src="Script/script.js"></script>
+</body>
+
 </html>
