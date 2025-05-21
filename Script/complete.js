@@ -13,8 +13,12 @@
         document.getElementById("navbar-twenty-three-btn").innerText = totalDoneTask;
         // done task history functionality starting
         const historyOfDoneTask = document.getElementById("done-task-history");
+        const cardOneTask = document.getElementById("card-one-task").innerText;
+        let now = new Date();
+        let dateTime = now.toLocaleString();
+        console.log(dateTime);
         historyOfDoneTask.innerHTML=`
-        <p> Some task added </p>
+        <p> You have completed ${cardOneTask} in ${dateTime}</p> 
         `;
     })
  }
